@@ -1,7 +1,8 @@
 import React from 'react'
+import './style.css'
 
 export default class App extends React.Component {
     render() {
-        return <div>Hello React!</div>
+        return <div className="app">Hello React!</div>
     }
 }
